@@ -1,1 +1,1 @@
-# Game-Of-Life
+# Game-Of-Life by Reut Brizinov 
