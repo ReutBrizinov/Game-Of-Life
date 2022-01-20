@@ -3,7 +3,10 @@
 
 [From Wikipdea](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life):
 ```
-The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves. It is Turing complete and can simulate a universal constructor or any other Turing machine.
+The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970.
+It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. 
+One interacts with the Game of Life by creating an initial configuration and observing how it evolves.
+It is Turing complete and can simulate a universal constructor or any other Turing machine.
 ```
 ## Implmentations
 I've decided to implement `Game of Life` in a couple of programming langauges:
@@ -27,7 +30,7 @@ I'm using `Visual Studio` for compiling my C# project.
 ### Assembly
 Compiled using Turbo Assembler (for x64 machines, I highly recommend [DosBox](https://www.dosbox.com/).
 
-```sh
+``` sh
 c:\> tasm.exe life.asm
 c:\> tlink.exe life.obj
 c:\> life.exe
